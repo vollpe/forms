@@ -1,0 +1,101 @@
+@import 'components/variables';
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+html {
+  height: 100%;
+
+  body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: linear-gradient($color-background-top, $color-background-bottom);
+    font-family: $font-family-text;
+
+    main {
+
+      section {
+        display: block;
+        width: 40vw;
+        min-width: 476px;
+        align-content: center;
+        margin: auto;
+        padding: 5vh 3vw 3vh 3vw;
+
+        header {
+
+          h2 {
+            margin: 0 0 35px 0;
+            font-weight: 300;
+            font-size: 5rem;
+            text-align: center;
+            color: $color-form-text;
+
+          }
+
+          p {
+            color: $color-form-text;
+            font-size: 1.5rem;
+            text-align: center;
+            font-weight: 300;
+          }
+        }
+        .contact-form {
+          display: block;
+          margin: 1vh 0 3vh 0;
+
+          label {
+            color: $color-form-text;
+            font-size: 1rem;
+          }
+
+          input {
+            width: 100%;
+            height: 4vh;
+            border: none;
+            border-radius: 0.15em;
+            padding: 0.5vh 0.5vw;
+            box-sizing: content-box;
+          }
+
+          input::placeholder {
+            color: $color-placeholder;
+          }
+
+          input::placeholder {
+            color: $color-placeholder;
+          }
+
+          textarea {
+            width: 100%;
+            resize: none;
+            border: none;
+            padding: 1vh 0.5vw;
+            border-radius: 0.15em;
+          }
+
+          textarea::placeholder {
+            color: $color-placeholder;
+          }
+
+          input:focus, textarea:focus {
+            border: 1px solid $color-input-focus;
+          }
+
+          #submit-btn {
+            background-color: $color-btn-background;
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-weight: 400;
+            height: 6vh;
+            box-shadow: 1px 1px 10px $btn-shadow;
+          }
+
+          #submit-btn:hover {
+            background-color: $color-btn-hover;
+          }
+        }
+      }
+    }
+  }
+}
