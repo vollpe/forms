@@ -1,0 +1,54 @@
+@import "variables";
+
+body {
+  height: 100vh;
+  background: $c-light-lilac;
+  background: -moz-linear-gradient(top, $c-body-gradient-1 0%, $c-body-gradient-2 50%, $c-body-gradient-3 100%);
+  background: linear-gradient(to bottom, $c-body-gradient-1 0%, $c-body-gradient-2 50%, $c-body-gradient-3 100%);
+}
+
+.form {
+  background-color: $c-form-bcg;
+  border: 1px solid $c-form-border;
+  display: flex;
+  flex-direction: column;
+  font-family: $theme-font;
+  font-size: 14px;
+  justify-content: center;
+  margin: 100px auto;
+  max-width: 600px;
+  min-height: 200px;
+  padding: 50px;
+
+  label {
+    color: $c-label;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  font-family: $theme-font;
+  font-size: 14px;
+}
+
+#fieldValidation {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.input {
+  border: 1px solid $c-form-border;
+  font-family: $theme-font;
+  padding: 5px;
+  width: 100%;
+}
+
+.invalid-input {
+  border: 1px solid $c-invalid-input;
+  font-family: $theme-font;
+  padding: 5px;
+  width: 100%;
+}

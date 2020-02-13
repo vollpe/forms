@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  background: #AF458E;
+  background: -moz-linear-gradient(top, #AF458E 0%, #8272d8 50%, #c1cae5 100%);
+  background: linear-gradient(to bottom, #AF458E 0%, #8272d8 50%, #c1cae5 100%); }
+
+.form {
+  background-color: #ffffff;
+  border: 1px solid #c7c7c7;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  justify-content: center;
+  margin: 100px auto;
+  max-width: 600px;
+  min-height: 200px;
+  padding: 50px; }
+  .form label {
+    color: #8a3770;
+    font-weight: bold;
+    margin: 10px 0; }
+
+div {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px; }
+
+#fieldValidation {
+  font-size: 12px;
+  font-style: italic; }
+
+.input {
+  border: 1px solid #c7c7c7;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  width: 100%; }
+
+.invalid-input {
+  border: 1px solid #a81e49;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
